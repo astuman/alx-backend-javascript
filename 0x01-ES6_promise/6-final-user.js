@@ -1,16 +1,16 @@
-import {signUpUser} from './4-user-promise.js';
-import {uploadPhoto} from './5-photo-reject.js';
+import {signUpUser} from './4-user-promise';
+import {uploadPhoto} from './5-photo-reject';
 
 export default async function handleProfileSignup(firstName, lastName, filename) {
-	const user = {
-		status: 'pending',
-		value: ''
-	};
-	const photo = {
-		status: 'pending',
-		value: ''
-	};
-	try {
+  const user = {
+    status: 'pending',
+      value: '',
+  };
+  const photo = {
+    status: 'pending',
+    value: '',
+  };
+  try {
     const signup = await signUpUser(firstName, lastName);
     user.status = 'fulfilled';
     user.value = signup;
