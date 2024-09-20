@@ -4,6 +4,6 @@
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 const displayMessage = (msg) => {
-console.log(msg);
+    console.log(msg);
 };
 module.exports = displayMessage;
