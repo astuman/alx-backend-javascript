@@ -3,7 +3,7 @@
  * @param {String} msg The message to display.
  */
 const displayMessage = (msg) => {
-    console.log("Hello NodeJS!");
+    console.log(msg);
   };
   
   module.exports = displayMessage;
