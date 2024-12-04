@@ -1,4 +1,4 @@
-const http = require ('http');
+const http = require('http');
 const fs = require('fs');
 
 const PORT = 1245;
@@ -115,4 +115,3 @@ app.listen(PORT, HOST, () => {
 });
 
 module.exports = app;
-
